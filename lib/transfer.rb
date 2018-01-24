@@ -11,4 +11,13 @@ class Transfer
   def valid?
     @sender.valid? && @receiver.valid?
   end
+
+  def execute_transaction
+    if sender.valid? == "open"
+      puts "it works"
+    else
+      "Transaction rejected. Please check your account balance."
+    end
+  end
+      
 end
