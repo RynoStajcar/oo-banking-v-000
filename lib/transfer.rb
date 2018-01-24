@@ -16,7 +16,7 @@ class Transfer
     if sender.valid? == "open"
       puts "it works"
     else
-      sender.status = "rejected"
+      @status = "rejected"
       "Transaction rejected. Please check your account balance."
     end
   end
