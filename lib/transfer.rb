@@ -17,7 +17,7 @@ class Transfer
       puts "it works"
     else
 
-      sender.status = "Transaction rejected. Please check your account balance."
+      sender.status = "rejected"
     end
   end
 
