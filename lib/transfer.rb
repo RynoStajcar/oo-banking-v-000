@@ -17,7 +17,7 @@ class Transfer
       puts "it works"
     else
       @status = "rejected"
-      "Transaction rejected. Please check your account alance."
+      "Transaction rejected. Please check your account balance."
     end
   end
 
